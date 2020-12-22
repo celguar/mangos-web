@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes" ?>
+<movie>		   
+	<featured>	
+	<item1 title="images/officespace.swf" link="/downloads/movies.html" />
+	<item2 title="images/eyeofthestorm.swf" link="/pvp/battlegrounds/eyeofthestorm/index.xml" />
+	<item3 title="images/bc-date.swf" link="/info/burningcrusade/index.xml" />
+	<item4 title="images/encyclopedia.swf" link="/info/encyclopedia/index.xml" />
+	<item5 title="images/tcg.swf" link="http://www.ude.com/wow/" />
+	</featured>
+</movie>
+				     									  

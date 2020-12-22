@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+	<strings>
+		<levelRange>Level Range: </levelRange>
+		<flightPoints>Flight Points: </flightPoints>
+		<dungeon>Dungeon: </dungeon>
+		<level>Level </level>
+		<raid>Raid</raid>
+		<viewMap>View Map</viewMap>
+	</strings>
+	<zones>
+<!-- ########################################################################################## -->
+		<zone levelRange="68-72" mapName="howling" zoneId="3" zoneName="Howling Fjord">
+			<cities alliance="true" horde="true" neutral="true">
+				<horde>Vengeance Landing</horde>
+				<horde>Apothecary Camp</horde>
+				<horde>New Agamand</horde>
+				<horde>Camp Winterhoof</horde>
+				<alliance>Valgarde</alliance>
+				<alliance>Fort Wildervar</alliance>
+				<alliance>Westguard Keep</alliance>
+				<neutral>Kamagua</neutral>
+			</cities>
+			<dungeons>
+				<dungeon name="Utgarde" type="dungeon" winged="wingedDungeon">
+					<wing levelRange="70-72" name="Utgarde Keep" type="dungeon"/>
+					<wing levelRange="80" name="Utgarde Pinnacle" type="dungeon"/>
+				</dungeon>
+			</dungeons>
+			<learnMore url="/wrath/features/northrend/howling-fjord.xml"/>
+		</zone>
+<!-- ########################################################################################## -->
+		<zone levelRange="73-75" mapName="grizzly" zoneId="4" zoneName="Grizzly Hills">
+			<cities alliance="true" horde="true" neutral="false">
+				<horde>Conquest Hold</horde>
+				<horde>Camp Oneqwah</horde>
+				<alliance>Amberpine Lodge</alliance>
+				<alliance>Westfall Brigade Encampment</alliance>
+			</cities>
+			<dungeons>
+				<dungeon name="Drak'Tharon Keep" type="dungeon">
+					<wing levelRange="74-76" name="" type="dungeon"/>
+				</dungeon>
+			</dungeons>			
+			<learnMore url="/wrath/features/northrend/grizzly-hills.xml"/>
+		</zone>
+<!-- ########################################################################################## -->
+		<zone levelRange="68-72" mapName="borean" zoneId="6" zoneName="Borean Tundra">
+			<cities alliance="true" horde="true" neutral="true">
+				<horde>Warsong Hold</horde>
+				<horde>Taunka'le Village</horde>
+				<horde>Bor'gorok Outpost</horde>
+				<alliance>Valiance Keep</alliance>
+				<alliance>Fizzcrank Airstrip</alliance>
+				<neutral>Amber Ledge</neutral>
+				<neutral>Transitus Shield</neutral>
+				<neutral>Unu'pe</neutral>
+			</cities>
+			<dungeons>
+				<dungeon name="The Nexus" type="dungeon" winged="wingedDungeon">
+					<wing levelRange="71-73" name="The Nexus" type="dungeon"/>
+					<wing levelRange="80" name="The Oculus" type="dungeon"/>
+					<wing levelRange="80" name="The Eye of Eternity" type="raid"/>
+				</dungeon>
+			</dungeons>
+			<learnMore url="/wrath/features/northrend/borean-tundra.xml"/>
+		</zone>
+<!-- ########################################################################################## -->
+		<zone levelRange="All" mapName="dalaran" zoneId="0" zoneName="Dalaran">
+			<dungeons>
+				<dungeon name="The Violet Hold" type="dungeon">
+					<wing levelRange="75-77" name="" type="dungeon"/>
+				</dungeon>
+			</dungeons>			
+		</zone>
+<!-- ########################################################################################## -->
+		<zone levelRange="76-80" mapName="storm" zoneId="1" zoneName="Storm Peaks">
+			<cities alliance="true" horde="true" neutral="true">
+				<alliance>Brann's Base-Camp</alliance>
+				<alliance>Frosthold</alliance>
+				<horde>Grom'arsh Crash-Site</horde>
+				<horde>Camp Tunka'lo</horde>
+				<neutral>Ulduar</neutral>
+				<neutral>Bouldercrag's Refuge</neutral>
+				<neutral>K3</neutral>
+			</cities>
+			<dungeons>
+				<dungeon name="Ulduar" type="dungeon" winged="wingedDungeon">
+					<wing levelRange="77-79" name="Halls of Lightning" type="dungeon"/>
+					<wing levelRange="80" name="Halls of Stone" type="dungeon"/>
+				</dungeon>
+			</dungeons>
+		</zone>
+<!-- ########################################################################################## -->
+		<zone levelRange="74-77" mapName="zul" zoneId="2" zoneName="Zul'Drak">
+			<cities alliance="false" horde="false" neutral="true">
+				<neutral>Ebon Watch</neutral>
+				<neutral>Light's Breach</neutral>
+				<neutral>The Argent Stand</neutral>
+				<neutral>Zim'Torga</neutral>
+				<neutral>Gundrak</neutral>
+			</cities>
+			<dungeons>
+				<dungeon name="Gundrak" type="dungeon">
+					<wing levelRange="76-78" name="" type="dungeon"/>
+				</dungeon>
+			</dungeons>			
+		</zone>
+<!-- ########################################################################################## -->
+		<zone levelRange="71-74" mapName="dragonblight" zoneId="5" zoneName="Dragonblight">
+			<cities alliance="true" horde="true" neutral="true">
+				<alliance>Wintergarde Keep</alliance>
+				<alliance>Stars' Rest</alliance>
+				<alliance>Fordragon Hold</alliance>
+				<horde>Agmar's Hammer</horde>
+				<horde>Kor'kron Vanguard</horde>
+				<horde>Venomspite</horde>
+				<neutral>Wyrmrest Temple</neutral>
+				<neutral>Moa'ki Harbor</neutral>
+			</cities>
+			<dungeons>
+				<dungeon name="Azjol-Nerub" type="dungeon" winged="wingedDungeon">
+					<wing levelRange="72-74" name="Azjol-Nerub" type="dungeon"/>
+					<wing levelRange="73-75" name="Ahn'kahet" type="dungeon"/>
+				</dungeon>
+				<dungeon levelRange="80" name="Naxxramas" type="raid">
+				</dungeon>
+				<dungeon levelRange="80" name="Chamber of the Aspects" type="raid">
+				</dungeon>
+			</dungeons>
+			<learnMore url="/wrath/features/northrend/dragonblight.xml"/>
+		</zone>
+<!-- ########################################################################################## -->
+		<zone levelRange="75-78" mapName="sholazar" zoneId="7" zoneName="Sholazar Basin">
+			<cities alliance="false" horde="false" neutral="true">
+				<neutral>Nesingwary Base Camp</neutral>
+				<neutral>River's Heart</neutral>
+			</cities>
+		</zone>
+<!-- ########################################################################################## -->
+		<zone levelRange="77-80" mapName="wintergrasp" zoneId="8" zoneName="Wintergrasp">
+			<cities alliance="true" horde="true" neutral="false">
+				<alliance>Valiance Landing Camp</alliance>
+				<horde>Warsong Camp</horde>
+			</cities>
+		</zone>
+<!-- ########################################################################################## -->
+		<zone levelRange="77-80" mapName="icecrown" zoneId="9" zoneName="Icecrown">
+			<cities alliance="false" horde="false" neutral="true">
+				<neutral>Death's Rise</neutral>
+				<neutral>The Shadow Vault</neutral>
+				<neutral>Crusaders' Pinnacle</neutral>
+				<neutral>The Argent Vanguard</neutral>
+			</cities>
+		</zone>
+<!-- ########################################################################################## -->
+		<zone levelRange="74-76" mapName="crystalsong" zoneId="10" zoneName="Crystalsong Forest">
+			<cities alliance="true" horde="true" neutral="true">
+				<alliance>Windrunner's Overlook</alliance>
+				<horde>Sunreaver's Command</horde>
+				<neutral>Dalaran</neutral>
+			</cities>
+		</zone>
+<!-- ########################################################################################## -->
+	</zones>
+</content>

@@ -1,0 +1,6 @@
+p {color:#d6f9ff !important;}
+p, h2, h3 {background-color:transparent !important;}
+#replacePaging { position: relative; top: 20px; margin-top: -40px; }
+#changeArrowLeft,#changeArrowRight { position: relative; top: 0px; margin:0 }
+.wrathgate_hd { margin: 35px 0 0 240px; }
+.wrathgate-glory-author { top: -30px; }

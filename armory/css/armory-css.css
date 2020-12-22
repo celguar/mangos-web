@@ -1,0 +1,280 @@
+a:link,a:active,a:visited {
+text-decoration: none;
+border: none;
+}
+a:hover {
+text-decoration: underline;
+}
+
+image {
+border: none;
+}
+
+/* --- This is the new content box --- */
+#loading-box {
+position: absolute;
+right: 0px;
+top: 20px;
+border: none;
+color: #EEE;
+height: 100px;
+font-size: 15pt;
+text-align: center;
+background: url('../images/detail/loading-bg.gif') no-repeat top right;
+width: 145px;
+height: 43px;
+z-index: 100000;
+font-weight: bold;
+padding-top: 9px;
+padding-right: 4px;
+display: none;
+}
+
+h1 {
+font-family: Georgia, Arial, Helvetica;
+font-size: 18pt;
+letter-spacing: -1px;
+}
+
+.header-text {
+font-family: Georgia, Arial, Helvetica;
+font-size: 22px;
+letter-spacing: 0px;
+font-weight: bold;
+color: #FFF;
+position: relative;
+top: -28px;
+left: -1px;
+}
+.header-shadow {
+font-family: Georgia, Arial, Helvetica;
+font-size: 22px;
+letter-spacing: 0px;
+font-weight: bold;
+color: #000;
+}
+
+h3 {
+font-family: Georgia, Arial, Helvetica;
+font-size: 14pt;
+letter-spacing: -1px;
+}
+
+.page-subheader {
+font-family: "Trebuchet MS", Arial, Helvetica;
+font-size: 12px;
+font-weight: bold;
+}
+
+.itemicon {
+height: 50px;
+width: 50px;
+}
+
+/* --- Global Content CSS --- */
+
+/* -- Borders -- */
+.content-table {
+padding: 0px;
+margin: 0;
+width: auto;
+}
+.content-corner {
+width: 13px;
+height: 13px !important;
+padding: 0px;
+}
+.content-side {
+width: 13px;
+padding: 0px;
+}
+.content-top {
+height: 13px;
+padding: 0px;
+}
+.content-border-tl {
+background: url('../images/profile/content/border-topleft.gif') no-repeat bottom right;
+}
+.content-border-tr {
+background: url('../images/profile/content/border-topright.gif') no-repeat bottom left;
+}
+.content-border-right {
+background: url('../images/profile/content/border-right.gif') repeat-y left;
+}
+.content-border-left {
+background: url('../images/profile/content/border-left.gif') repeat-y right;
+}
+.content-border-top {
+background: url('../images/profile/content/border-top.gif') repeat-x bottom;
+}
+.content-border-bottom {
+background: url('../images/profile/content/border-bottom.gif') repeat-x top;
+}
+.content-border-bl {
+background: url('../images/profile/content/border-bottomleft.gif') no-repeat top right;
+}
+.content-border-br {
+background: url('../images/profile/content/border-bottomright.gif') no-repeat top left;
+}
+.content-header-right {
+background: url('../images/detail/info-header-bg.gif') top right repeat-x;
+}
+.content {
+background: url('../images/profile/content/background.gif');
+padding: 10px;
+font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+}
+
+/* -- Tooltip  -- */
+.tooltip-content {
+background: #0C1227;
+padding: 3px;
+font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+}
+
+.profile-tooltip-header {
+font-weight: bold;
+color: #FFF;
+font-size: 12px;
+}
+.profile-tooltip-description {
+color: #FFD200;
+font-size: 12px;
+}
+.tooltip-whitetext {
+color: #FFF;
+font-size: 12px;
+}
+
+/* --- Character Search CSS --- */
+/* Shared by Guild List */
+.reg{
+border: 0;
+font-weight: bold;
+background-color: rgb(4, 13, 26);
+color: rgb(255, 172, 4);
+}
+.csearch-results-header {
+font-weight: bold;
+color: #333;
+font-size: 16px;
+font-family: Georgia, "Times New Roman", Arial, Helvetica;
+letter-spacing: 0px;
+}
+.csearch-results-info {
+margin-left: 50px;
+color: #000;
+font-size: 16px;
+font-weight: bold;
+font-family: Georgia, "Times New Roman", Arial, Helvetica;
+}
+
+.csearch-results-loading {
+color: #FFF;
+border: 1px solid #666;
+background: #000;
+padding: 2px;
+font-size: 14px;
+font-family: Georgia, "Times New Roman", Arial, Helvetica;
+}
+.csearch-results-table {
+margin-left: 50px;
+width: 800px;
+}
+.csearch-results-table-header {
+height: 24px;
+background: url('../images/detail/tableheader.gif') repeat-x top left;
+padding-left: 4px;
+padding-right: 4px;
+color: #FFF;
+font-family: "Trebuchet MS", Arial, Helvetica;
+font-size: 12px;
+font-weight: bold;
+}
+.csearch-results-table-item {
+height: 26px;
+padding-left: 4px;
+padding-right: 4px;
+color: #000;
+font-family: "Trebuchet MS", Arial, Helvetica;
+font-size: 12px;
+font-weight: bold;
+}
+.csearch-results-table-item a {
+color: #206180;
+}
+.csearch-results-table-item a:hover {
+color: #3399CC;
+text-decoration: none;
+}
+.csearch-results-table-item-ordered {
+height: 26px;
+background: url('../images/detail/tabledata.gif') repeat-x top left;
+padding-left: 4px;
+padding-right: 4px;
+color: #000;
+font-family: "Trebuchet MS", Arial, Helvetica;
+font-size: 12px;
+font-weight: bold;
+background-position: 0px -27px;
+}
+.csearch-results-table-item-ordered a {
+color: #206180;
+}
+.csearch-results-table-item-ordered a:hover {
+color: #3399CC;
+text-decoration: none;
+}
+.nopadding {
+padding: 0px;
+}
+.rightalign {
+text-align: right;
+}
+.leftalign {
+text-align: left;
+}
+.centeralign {
+text-align: center;
+}
+.csearch-page-info {
+font-weight: bold;
+font-family: "Trebuchet MS";
+font-size: 11px;
+text-align: left;
+}
+.csearch-results-table-header a {
+color: #FFF !important;
+}
+
+/* - Faction - */
+/* Horde */
+.profile-header-portrait-img-horde {
+border: 2px solid #930000;
+padding: 0px;
+}
+.profile-header-portrait-img-horde:hover {
+border: 2px solid #E65B00;
+}
+/* Alliance */
+.profile-header-portrait-img-alliance {
+border: 2px solid #000093;
+padding: 0px;
+}
+.profile-header-portrait-img-alliance:hover {
+border: 2px solid #005BE6;
+}
+
+/* -- Others -- */
+
+.profile-greenstat {
+color: #ADFE41;
+}
+
+.hidden {
+display: none;
+}
+
+.visible {
+display: inline;
+}

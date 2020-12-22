@@ -1,0 +1,12 @@
+/* 
+World of Warcraft -  The Burning Crusade[IE FIX]
+*/
+#wow-logo { background: url('wowlogo-front.gif') no-repeat; position:relative; top:-3px; left:-24px;  width: 252; height: 103; }
+#ne-top-left { background: url('ne-top-left.jpg') no-repeat; position: absolute; top: -47px; left: -310px; height: 346px; width: 264px; }
+#ne-center { background: url('ne-center.jpg') no-repeat; position: absolute; top: -47px; left: -46px; height: 578px; width: 64px; }
+#ne-bottom-left { background: url('ne-bottom-left.jpg') no-repeat; position: absolute; top: 299px; left: -172px; height: 126px; width: 144px; }
+#ne-nav-bg { background: url('ne-nav-bg.jpg') no-repeat; position: absolute; top: 3px; left: 15px; height: 546px; width: 146px; }
+#ironFrame { margin-top: 15px; margin-bottom: 20;}
+#marginal { width: 220px; margin-left: 3px; }
+#copyright { display: block; position: relative; top: 75px; left: auto;	color: #8e8e8e; z-index: 9999999;}
+div div div#blizzlogo-bot { position: relative; display: block; text-align: center; top: -62px; left: auto; background: none; z-index: 500; }

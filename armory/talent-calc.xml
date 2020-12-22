@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/new-hp/xml/talent-calculator.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/talent-calc.xml">
+  <talents classId="6"/>
+  <talentTabs>
+    <talentTab classId="2" name="Paladin" url="c=Paladin"/>
+    <talentTab classId="4" name="Rogue" url="c=Rogue"/>
+    <talentTab classId="9" name="Warlock" url="c=Warlock"/>
+    <talentTab classId="8" name="Mage" url="c=Mage"/>
+    <talentTab classId="6" name="Death Knight" url="c=Death+Knight"/>
+    <talentTab classId="11" name="Druid" url="c=Druid"/>
+    <talentTab classId="1" name="Warrior" url="c=Warrior"/>
+    <talentTab classId="3" name="Hunter" url="c=Hunter"/>
+    <talentTab classId="7" name="Shaman" url="c=Shaman"/>
+    <talentTab classId="5" name="Priest" url="c=Priest"/>
+  </talentTabs>
+</page>

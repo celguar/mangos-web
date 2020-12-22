@@ -1,0 +1,71 @@
+/*\ IE Search Results \*/
+
+body { background-position: top right !important; }
+div.minwidth { width: 790px; height: 1px; }
+.resultbox { display: block; width: 100%; }
+#resultsContainer {float:left; width: 100%;}
+.postdisplay div.innercontainer { width: auto;  }
+div.rpage-thread a.current,div.rpage-thread a.current:link,div.rpage-thread a.current:active,div.rpage-thread a.current:visted, div.rpage a.current,div.rpage a.current:link,div.rpage a.current:active,div.rpage a.current:visted, div.lpage a.current,div.lpage a.current:link,div.lpage a.current:active,div.lpage a.current:visted { color: white; font-size: 12px; text-decoration: none;}
+div.rpage-thread a:hover, div.rpage a:hover, div.lpage a:hover{ text-decoration: none;}
+#main-nav { margin-top: -17px !important; 
+			margin-bottom: -9px !important; }
+.switcher-container { top: -65px !important; right: 60px; }
+.language-switcher-container { top: -65px !important; right: 170px; }
+
+#post { margin-top: -5px; }
+.login-message { margin: 34px auto 0; }
+.user-nameplate-wrapper ul li img { left: -5px; }
+.list-avatars { padding: 0px; }
+.list-avatars ol li { margin: 10px 20px; }
+#error-container { white-space: auto;  }
+#search { margin-top: -12px; }
+#search div.forum-index { margin-top: -1px; }
+.postdisplay div.secondcontainer { width: auto;  }
+#character-post-info { width: 567px; }
+
+.message-format ul li { list-style: disc; padding: 5px; }
+.message-format li { margin: 5px; }
+
+
+
+/*\ Tooltips and PNG Handling \*/
+
+img.png { behavior: url("/includes/pngBehavior.htc") }
+
+#character-post-info { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='/shared/wow-com/includes/images/back.png'); }
+#contents { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='/shared/wow-com/includes/images/blue-bg.png'); }
+.tt-header em { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop src='/shared/wow-com/includes/images/tooltip-alert.png'); }
+td.tt1 { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image src='/shared/wow-com/includes/images/tooltip-top-left.png'); }
+td.tt2 { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='/shared/wow-com/includes/images/tooltip-top.png'); }
+td.tt3 { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image src='/shared/wow-com/includes/images/tooltip-top-right.png'); }
+td.tt4 { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='/shared/wow-com/includes/images/tooltip-left.png'); }
+td.tt5 {background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='/shared/wow-com/includes/images/tooltip-back.png'); }
+td.tt6 { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='/shared/wow-com/includes/images/tooltip-right.png'); }
+td.tt7 { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image src='/shared/wow-com/includes/images/tooltip-bot-left.png'); }
+td.tt8 { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='/shared/wow-com/includes/images/tooltip-bot.png'); }
+td.tt9 { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image src='/shared/wow-com/includes/images/tooltip-bot-right.png'); }
+.admin-box { width: 90px; background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/shared/wow-com/includes/images/back.png'); }
+.options-container { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='/shared/wow-com/includes/images/post-back.png'); }
+.top-shadow { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='/shared/wow-com/includes/images/subnav/bg-shadow-tile-top.png'); margin-bottom: 0px; margin-top: -37px; }
+.drop-shadow { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='/shared/wow-com/includes/images/subnav/bg-shadow-tile.png'); margin-bottom: -13px; }
+.subnav-container { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='/shared/wow-com/includes/images/back2.png'); }
+.postf1 { background: url('/shared/wow-com/includes/images/search-bot-tile1.gif') repeat-x bottom; }
+.postf2 { background: url('/shared/wow-com/includes/images/search-bot-tile2.gif') repeat-x bottom; }
+.gborder, #errorcontainer div.messages, #searchshell div.searchbox, #character-post-info { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='/shared/wow-com/includes/images/back.png'); }
+#searchcontainer div.searchbanner, #searchcontainer div.postpreview { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image, src='/shared/wow-com/includes/images/search-banner-bg.png'); }
+td.tools11 { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/shared/wow-com/includes/images/post-msg-bot-left.png'); }
+td.tools12 { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/shared/wow-com/includes/images/post-msg-bot-left.png'); }
+td.tools21 { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/shared/wow-com/includes/images/post-msg-bot-left.png'); }
+td.tools22 { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/shared/wow-com/includes/images/post-msg-bot-left.png'); }
+#contents { visibility: hidden; position: absolute; z-index: 999999; width: 5px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='/shared/wow-com/includes/images/blue-bg.png');}
+.pinfobackground { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/shared/wow-com/includes/images/back.png'); }
+.pifooter { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/shared/wow-com/includes/images/back.png'); }
+#dynamicTooltip { visibility: hidden; position: absolute; z-index: 999999; }
+#tooltipText { visibility: hidden; color: #ffffff; font-family: verdana, arial, sans-serif; font-size:8pt; font-weight:normal; padding: 4px; white-space:nowrap; }
+.trans_div {
+/* This is an IE filter command. Other browsers will ignore it */
+/* It goes into the trans_div class */
+}
+/* Square bracketed class styles are usable non-IE type browsers */
+/* This is a seperate css entry, not part of the original trans_div class */
+.trans_div[class] { background-image:url(/shared/wow-com/includes/images/blue-bg.png); }

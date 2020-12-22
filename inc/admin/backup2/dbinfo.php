@@ -1,0 +1,14 @@
+<?
+$dbhost="localhost";
+$dbuser="root";
+$dbpass="";
+$path="";
+$dbase0="information_schema";
+$dbase1="cdcol";
+$dbase2="mysql";
+$dbase3="phpmyadmin";
+$dbase4="realmd";
+$dbase5="test";
+$dbase6="webauth";
+$num_dbs="6";
+?>

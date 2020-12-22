@@ -1,0 +1,24 @@
+<style type="text/css">
+table.extra {
+	border-width: 1px 1px 1px 1px;
+	border-spacing: 2px;
+	border-style: dashed dashed dashed dashed;
+	border-color: black black black black;
+	border-collapse: separate;
+}
+table.extra th {
+	border-width: 1px 1px 1px 1px;
+	padding: 1px 1px 1px 1px;
+	border-style: dashed dashed dashed dashed;
+		border-color: gray gray gray gray;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+table.extra td {
+	border-width: 1px 1px 1px 1px;
+	padding: 1px 1px 1px 1px;
+	border-style: dashed dashed dashed dashed;
+	border-color: gray gray gray gray;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+</style>

@@ -1,0 +1,102 @@
+* {zoom:1;}
+li, span, a, dl, dt, dd, p, blockquote {zoom:0;}
+img {behavior:url(/wrath/images/layout/iepngfix.htc);}
+.png {behavior:url(/wrath/images/layout/iepngfix.htc); position:relative;}
+.hr {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/hr.png'); padding: 0 0 10px 0; margin: 10px 0 0 0;}
+.bport { padding: 4px 15px; }
+
+/* no flash */
+.feature-overlay { background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/noflash/frontpage_featured_bottom.png'); }
+.sub-crest { background:none; width: 97px; height: 122px; position: absolute; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/noflash/sub_crest.png'); top left no-repeat; margin: 32px 0 0 25px;}
+
+/* nav bar */
+
+.navbox-left {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/noflash/navi_left_outer.png');}
+.navbox-middle {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/noflash/navi_bg.png');}
+.navbox-right {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/noflash/navi_right_outer.png');}
+.navbox-inner-left {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/noflash/navi_left_inner.png');}
+.navbox-inner-right {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/noflash/navi_right_inner.png');}
+.navbox-inner-middle em {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/noflash/navi_separator.png'); }
+
+/* frontpage */
+div.frontpage-overview { height: 520px;}
+
+
+/* tooltip */
+
+.dropdown-bg {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/tooltip/backplate.png');}
+
+.light-tip td.tl 	{background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/tooltip/lp-tl.png');}
+.light-tip td.tr 	{background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/tooltip/lp-tr.png');}
+.light-tip td.t	{background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/tooltip/lp-t.png');}
+.light-tip td.l 	{background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/tooltip/lp-l.png');}
+.light-tip td.r	{background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/tooltip/lp-r.png');}
+.light-tip td.bl	{background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/tooltip/lp-bl.png');}
+.light-tip td.br 	{background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/tooltip/lp-br.png');}
+.light-tip td.b 	{background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/tooltip/lp-b.png');}
+.light-tip td.bg 	{background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/tooltip/lp-bg.png');}
+
+/* imageviewers */
+.blacktop 	{background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/layout/blacktop.png');}
+.blackmid 	{background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/layout/blackmid.png');}
+.blackbot 	{background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/layout/blackbot.png');}
+.features 	{background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/layout/blackmid-dark.png');}
+.features-bot 	{background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/layout/blackbot-dark.png');}
+
+
+.ssborder div {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/ssborder2.png');}
+
+.ssborder-t-shadow {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/layout/ssborder-t-shadow.png');}
+.ssborder-tl {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/ssborder-tl.png');}
+.ssborder-tr {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/ssborder-tr.png');}
+.ssborder-l-shadow {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/layout/ssborder-l-shadow.png');}
+.ssborder-r-shadow {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/layout/ssborder-r-shadow.png');}
+.ssborder-b-shadow {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/layout/ssborder-b-shadow.png');}
+.ssborder-bl {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/ssborder-bl.png');}
+.ssborder-br {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/ssborder-br.png');}
+
+.insetlist li { background-image:url('/wrath/images/layout/insetlist_bullet.gif'); }
+li.blood { background-image:url(../images/layout/b_blood.gif); } 
+li.frost { background-image:url(../images/layout/b_frost.gif); } 
+li.unholy { background-image:url(../images/layout/b_unholy.gif); } 
+li.alliance { background: url(../images/layout/alliance.gif) 4px 1px no-repeat; } 
+li.horde { background: url(../images/layout/horde.gif) 0 1px no-repeat; } 
+
+/* features */
+
+a.feature-update,a.feature-update:active,a.feature-update:visited, a.zone-menu, a.zone-menu:active, a.zone-menu:visited { background: none; margin: 0 auto 0; padding: 0; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/feature-update.png');}
+.fblock a { background: #111013; position: relative; width: 100%; z-index: 10 }
+.stories-top  { background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/layout/blacktop-dark2.png');}
+.zones-footer { background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/bg-zones-footer.png');}
+.feature-category .blanks-bot {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/feature-block-null-bot.png');}
+.feature-category {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/features-category-fade.png');}
+
+/* story */
+.rise-img1,.rise-img2	{top: -132px }
+.story-brackets i.left b { left: -36px }
+.story-brackets i.right b { right: -36px }
+#changeArrowLeft strong,#changeArrowRight strong { display: inline }
+
+/* movies */
+
+a.pcd,a.macd,a.flvd { padding: 0; height: 21px; width: 21px; position: relative; top: 5px; margin-top: -5px; cursor: pointer }
+a.pcd 	{ background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/button-pc.png'); }
+a.macd 	{ background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/button-mac.png'); }
+a.flvd 	{ background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/button-flv.png'); }
+.movie a.mov	{ margin:0 0 0 11px; padding:0 }
+
+/* wallpapers */
+
+.wallpaper {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/wrath/images/layout/bg-wallpapers.png');}
+.morewall { margin-top:0;  }
+
+/* Wrath of the Lich King Logo */
+div.wrathlogopng { background: none; margin: 0 auto 0; padding: 0; width: 366px; height: 191px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/layout/logo_wrath.png'); background-position: top left; background-repeat: no-repeat;}
+.bestiaryContainerThumb div {background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wrath/images/layout/ssborder2.png');  }
+
+#flashcharghoul { margin-top:-233px !important; }
+
+.legalcontainer .logo-esrbrating { right: 20px; }
+
+.wrathgate_hd { margin: 35px 0 0 240px; }
+.wrathgate-glory-author { top: -30px; }

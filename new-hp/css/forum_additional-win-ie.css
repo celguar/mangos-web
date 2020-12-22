@@ -1,0 +1,97 @@
+/*\ IE Search Results \*/
+
+div.minwidth { width: 790px; height: 1px; }
+.resultbox { display: block; width: 100%; }
+#resultsContainer {float:left; width: 100%;}
+.postdisplay div.innercontainer { width: auto;  }
+div.rpage-thread a.current,div.rpage-thread a.current:link,div.rpage-thread a.current:active,div.rpage-thread a.current:visted, div.rpage a.current,div.rpage a.current:link,div.rpage a.current:active,div.rpage a.current:visted, div.lpage a.current,div.lpage a.current:link,div.lpage a.current:active,div.lpage a.current:visted { color: white; font-size: 12px; text-decoration: none;}
+div.rpage-thread a:hover, div.rpage a:hover, div.lpage a:hover{ text-decoration: none;}
+#main-nav { margin-top: -8px !important; 
+			margin-bottom: -9px !important; }
+.switcher-container { top: -50px !important; right: 60px; }
+.language-switcher-container { top: -65px !important; right: 170px; }
+
+#post { margin-top: -5px; }
+.login-message { margin: 34px auto 0; }
+.user-nameplate-wrapper ul li img { left: -5px; }
+.list-avatars { padding: 0px; }
+.list-avatars ol li { margin: 10px 20px; }
+#error-container { white-space: auto;  }
+#search { margin-top: -12px;  margin-bottom: -14px; }
+#search div.forum-index { margin-top: -1px; }
+.postdisplay div.secondcontainer { width: auto;  }
+#character-post-info { width: 567px; }
+
+.message-format ul li { list-style: disc; padding: 5px; }
+.message-format li { margin: 5px; }
+
+/*\  MINE  \*/
+
+select.forum-dropdown { margin-top: 4px; }
+.gborder ul li div.a ul li div.b ul li div.c { margin: 0px 38px 0px 0px;  }
+
+/*\ Tooltips and PNG Handling \*/
+
+#character-post-info { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/forum/back.png'); }
+#contents { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/forum/blue-bg.png'); }
+.tt-header em { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop src='../images/forum/tooltip-alert.png'); }
+td.tt1 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image src='../images/forum/tooltip-top-left.png'); }
+td.tt2 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/forum/tooltip-top.png'); }
+td.tt3 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image src='../images/forum/tooltip-top-right.png'); }
+td.tt4 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/forum/tooltip-left.png'); }
+td.tt5 { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/forum/tooltip-back.png'); }
+td.tt6 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/forum/tooltip-right.png'); }
+td.tt7 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image src='../images/forum/tooltip-bot-left.png'); }
+td.tt8 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/forum/tooltip-bot.png'); }
+td.tt9 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image src='../images/forum/tooltip-bot-right.png'); }
+.admin-box { width: 90px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../images/forum/back.png'); }
+.options-container { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/forum/post-back.png'); }
+.top-shadow { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/forum/bg-shadow-tile-top.png'); }
+.drop-shadow { background: url(../images/forum/bg-shadow-tile.png) repeat-x; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/forum/bg-shadow-tile.png'); margin-top: 0px; margin-bottom: -15px; z-index: 0; }
+.subnav-container { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/forum/back2.png');}
+.postf1 { background: url('../images/forum/search-bot-tile1.gif') repeat-x bottom; }
+.postf2 { background: url('../images/forum/search-bot-tile2.gif') repeat-x bottom; }
+.gborder, #errorcontainer div.messages, #searchshell div.searchbox, #character-post-info { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/forum/back.png'); }
+#searchcontainer div.searchbanner, #searchcontainer div.postpreview { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image, src='../images/forum/search-banner-bg.png'); }
+td.tools11 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='../images/forum/post-msg-bot-left.png'); }
+td.tools12 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='../images/forum/post-msg-bot-left.png'); }
+td.tools21 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='../images/forum/post-msg-bot-left.png'); }
+td.tools22 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='../images/forum/post-msg-bot-left.png'); }
+#contents { visibility: hidden; position: absolute; z-index: 999999; width: 5px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/forum/blue-bg.png');}
+.pinfobackground { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../images/forum/back.png'); }
+.pifooter { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../images/forum/back.png'); }
+
+.vote-inactive {display:inline;}
+.poll-count span {display:inline !important;}
+.poll-content {z-index: 99023;}
+li.delete-posts input { padding:0; margin:0; }
+li.delete-posts span { width: 30px; padding: 2px 0 0 0;  }
+.miniadmin, #postid11, #postid21 { margin-bottom: -5px; }
+td.tools11, td.tools21 { height: 17px; }
+
+.vp-content a.link { width: 1%; display: block; cursor: pointer; }
+.vp-content a.link span { width: 1%; }
+
+
+.admin-viewport { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../images/forum/df-bg.png'); }
+
+/*df*/
+.df td.tl 	{ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='../images/forum/df-tl.png'); }
+.df td.tr 	{ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='../images/forum/df-tr.png'); }
+.df td.t 	{ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/forum/df-t.png'); }
+.df td.l 	{ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/forum/df-l.png'); }
+.df td.r 	{ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/forum/df-r.png'); }
+.df td.bg	{ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../images/forum/df-bg.png'); }
+.df td.bl 	{ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='../images/forum/df-bl.png'); }
+.df td.br 	{ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='../images/forum/df-br.png'); }
+.df td.b 	{ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/forum/df-b.png'); }
+
+#dynamicTooltip { visibility: hidden; position: absolute; z-index: 999999; }
+#tooltipText { visibility: hidden; color: #ffffff; font-family: verdana, arial, sans-serif; font-size:8pt; font-weight:normal; padding: 4px; white-space:nowrap; }
+.trans_div {
+/* This is an IE filter command. Other browsers will ignore it */
+/* It goes into the trans_div class */
+}
+/* Square bracketed class styles are usable non-IE type browsers */
+/* This is a seperate css entry, not part of the original trans_div class */
+.trans_div[class] { background-image:url(../images/forum/blue-bg.png); }

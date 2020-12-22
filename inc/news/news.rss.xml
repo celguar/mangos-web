@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1252"?>
+		<rss version="2.0">
+			<channel>
+			<link>http://localhost/</link>
+			<title>World of Warcraft Community Site</title>
+			<description>Lastest News</description><item>
+							<link>http://localhost/?n=news.archive&amp;m=2009-02#2</link>
+							<title>Welcome! - Blizzard on 08-02-2009 at 05:15:24</title>
+							<description>Welcome to World of Warcraft Community Site!&lt;br /&gt;
+We hope you enjoy playing here.&lt;br /&gt;
+Feel free to explore our Website.</description>
+							<guid isPermaLink="false">2</guid>
+						</item></channel>
+					</rss>

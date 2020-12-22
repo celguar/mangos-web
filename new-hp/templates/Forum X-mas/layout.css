@@ -1,0 +1,8 @@
+/* 
+Copyright 2006 Blizzard Entertainment, Inc.
+forums.worldofwarcraft.com Master CSS 
+*/
+
+body { background: #000000 url('xmas-bg.jpg') repeat-x 50% 0 !important; }
+#postbackground { background: #000 url('forum-xmas-tile-left.jpg') repeat-y left top; }
+#postbackground .right { background: url('forum-xmas-tile-right.jpg') repeat-y right top; }

@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<strs>
+
+<!--General Strings-->
+	<str id="wrath.base">/wrath/</str>
+  <!-- sets the base url -->
+	<str id="wrath.mediahost">http://media.worldofwarcraft.com/wrath/</str>
+  <!-- sets the media url -->
+
+	<order id="wrath.order.date">
+		<str select="datainsert1"/>
+		<str id="wrath.date.separator"/>
+		<str select="datainsert2"/>
+		<str id="wrath.date.separator"/>
+		<str select="datainsert3"/>
+	</order>
+
+	<str id="wrath">World of Warcraft: Wrath of the Lich King</str>
+	<str id="wrath.lang">English (US)</str>
+	<str id="wrath.region">US</str>
+	<str id="wrath.labels.languagecolon">Language:</str>
+	<str id="wrath.labels.english-us">English (US)</str>
+	<str id="wrath.labels.english-gb">English (EU)</str>
+	<str id="wrath.labels.spanish-al">Español (AL)</str>	
+	<str id="wrath.labels.spanish">Español (EU)</str>
+	<str id="wrath.labels.french">Français</str>
+	<str id="wrath.labels.german">Deutsch</str> 
+	<str id="wrath.labels.russian">Русский</str>
+	<str id="wrath.labels.korean">한국어</str>
+	<str id="wrath.labels.jobs.link">http://www.blizzard.com/jobopp/</str>	
+	<str id="wrath.labels.returnlink">Return Home</str>
+	<str id="wrath.labels.flashtoggle">Toggle Flash</str>
+	<str id="wrath.labels.maintenance1">The site is down for maintenance.</str>
+	<str id="wrath.labels.maintenance2">We'll be back soon!</str>
+	<str id="labels.next">Next</str>
+	<str id="labels.previous">Previous</str>
+	<str id="labels.chapter">Chapter</str>
+	<str id="labels.clickonimage">Click on image to view next entry</str>
+	<str id="labels.returntoscreenshots">Return to Screenshots</str>
+	<str id="labels.returntoartwork">Return to Artwork</str>
+	<str id="labels.returntoorigin">Return to Origin</str>
+	<str id="labels.returntofeatures">Back to Features</str>
+	<str id="labels.of">of</str>
+	<str id="labels.downloadhires">High-Resolution Downloads</str>
+	<str id="labels.intro">Cinematic Trailer</str>
+	<str id="labels.wrathgate">The Wrath Gate</str>
+	<str id="labels.ulduar">Ulduar</str>
+	<str id="labels.morewallpapers">More Wallpapers</str>
+	<str id="wrath.label.comingsoon">Coming Soon</str>
+	<str id="wrath.date.separator">.</str>
+	<str id="wrath.colon">:</str>
+	<str id="wrath.labels.clicktoclose">Click to close</str>
+	<str id="wrath.labels.faqtop">top</str>
+	<str id="wrath.labels.showall">Show All</str>
+	<str id="wrath.labels.showless">Show Less</str>
+
+	<str id="wrath.labels.error">Error</str>
+	<str id="wrath.labels.error.text">You have encountered an error.</str>
+	<str id="wrath.labels.error.returntoprevious">Return to the previous page</str>
+	<str id="wrath.labels.error.returntoindex">Return to home</str>
+
+
+
+<!-- Main Flash Animation -->
+
+	<str id="wrath.main.trailerfile">wrath_of_the_lich_king_en.flv</str>
+
+<!-- Navigation -->
+
+	<nav>
+		<str id="wrath.nav.1" link="index.xml">HOME</str>
+		<str id="wrath.nav.2" link="features.xml">FEATURES</str>
+		<str id="wrath.nav.3" link="screenshots.xml">SCREENSHOTS</str>
+		<str id="wrath.nav.4" link="artwork.xml">ARTWORK</str>
+		<str id="wrath.nav.5" link="downloads.xml">DOWNLOADS</str>
+		<str id="wrath.nav.6" link="movies.xml">MOVIES</str>
+		<str id="wrath.nav.7" link="faq.xml">FAQ</str>
+		<str id="wrath.nav.8" link="http://forums.worldofwarcraft.com/">FORUMS</str>			
+	</nav>
+
+
+	<navparams>
+		<str id="wrath.nav.param.menuelements">8</str>				<!-- IMPORTANT PARAMETER - Please specify total number of menu items (up to 9 available if needed) -->
+		<str id="wrath.nav.param.yposition">7</str>   				<!-- Moves the menu bar items along the Y axis. -->
+		<str id="wrath.nav.param.space">8</str>						<!-- Space in pixels between each menu element. This value can be negative. -->
+		<str id="wrath.nav.param.fontsize">11</str>	 				<!-- Font size of each menu element. -->
+		<str id="wrath.nav.param.sepdeltay">2</str>	 				<!-- Adjusts the vertical position of separator elements with respect to the menu elements. -->
+		<str id="wrath.nav.param.sides">25</str>					<!-- Adjusts the space between the end caps and the first and last menu elements. -->
+
+		<str id="wrath.nav.param.txtmenucolor">FFFFFF</str>			<!-- Menu Color -->
+		<str id="wrath.nav.param.txtmenuhover">a6fcff</str>			<!-- Menu Color in Hover State -->
+		<str id="wrath.nav.param.glowcolornormalin">324b7d</str> 	<!-- Glow Color for text normal state, inner color -->
+		<str id="wrath.nav.param.glowcolornormalout">324b7d</str> 	<!-- Glow Color for text normal state, outer color -->
+		<str id="wrath.nav.param.glowcolorhoverin">00deff</str> 	<!-- Glow Color for text hover state, inner color -->
+		<str id="wrath.nav.param.glowcolorhoverout">00deff</str> 	<!-- Glow Color for text hover state, outer color -->
+
+		<str id="wrath.nav.param.fontfile">fnt_alliance.swf</str>
+		<str id="wrath.nav.param.fontname">fnt_alliance</str>
+		<str id="wrath.nav.param.fontmcname">mc_alliance</str>
+		<str id="wrath.nav.param.fonttxtname">txt_alliance</str>
+	</navparams>
+
+
+<!-- Frontpage Main Flash -->
+
+	<str id="wrath.main.movieclose">Close</str>
+	<str id="wrath.main.trailer.description">Wrath of the Lich King Trailer</str>
+	<str id="wrath.main.param.video.filepath.trailer">http://us.media.blizzard.com/starcraft2/movies/</str>
+	<str id="wrath.main.param.video.filename.trailer">video_artwork.flv</str>    
+	<str id="wrath.main.param.video.controls.filepath"/>
+	<str id="wrath.main.param.video.controls.filename">http://us.media.blizzard.com/starcraft2/flash/global/moviecontrols.swf</str>  
+
+
+<!-- Featured Boxes -->
+
+	<str id="wrath.featured.title.1">The Wrath Gate</str>
+	<str id="wrath.featured.sub.1">MOVIE</str>
+	<str id="wrath.featured.link.1">http://www.worldofwarcraft.com/wrath/wrathgate.xml</str>
+	<str id="wrath.featured.img.1">images/flash/featured/wrathgate.jpg</str>
+
+	<str id="wrath.featured.title.2">Features</str>
+	<str id="wrath.featured.sub.2">OVERVIEW</str>
+	<str id="wrath.featured.link.2">http://www.worldofwarcraft.com/info/wrath/index.xml</str>
+	<str id="wrath.featured.img.2">images/flash/featured/features.jpg</str>
+
+	<str id="wrath.featured.title.3">Buy Now</str>
+	<str id="wrath.featured.sub.3">INFORMATION</str>
+	<str id="wrath.featured.link.3">http://www.blizzard.com/store/details.xml?id=1100000265</str>
+	<str id="wrath.featured.img.3">images/flash/featured/buynow.jpg</str>	
+
+	<str id="wrath.featured.param.titlecolor.1">e1a900</str>
+	<str id="wrath.featured.param.subcolor.1">d6f2ff</str>
+	<str id="wrath.featured.param.fontsize.1">13</str>
+	<str id="wrath.featured.param.fontsizesmall.1">10</str>
+	<str id="wrath.featured.param.yposition.1">0</str>
+	<str id="wrath.featured.param.letterspacing.1">0</str>
+
+	<str id="wrath.featured.param.titlecolor.2">e1a900</str>
+	<str id="wrath.featured.param.subcolor.2">d6f2ff</str>
+	<str id="wrath.featured.param.fontsize.2">13</str>
+	<str id="wrath.featured.param.fontsizesmall.2">10</str>
+	<str id="wrath.featured.param.yposition.2">0</str>
+	<str id="wrath.featured.param.letterspacing.2">0</str>
+
+	<str id="wrath.featured.param.titlecolor.3">e1a900</str>
+	<str id="wrath.featured.param.subcolor.3">d6f2ff</str>
+	<str id="wrath.featured.param.fontsize.3">15</str>
+	<str id="wrath.featured.param.fontsizesmall.3">10</str>
+	<str id="wrath.featured.param.yposition.3">0</str>
+	<str id="wrath.featured.param.letterspacing.3">0</str>
+
+
+
+<!-- Sub-Section Flash Title Text -->
+
+	<str id="wrath.subtitle.param.fontsize">26</str>
+	<str id="wrath.subtitle.param.deltax">0</str>
+	<str id="wrath.subtitle.param.deltay">0</str>
+	<str id="wrath.subtitle.param.x">60</str>
+	<str id="wrath.subtitle.param.y">78</str>
+	<str id="wrath.subtitle.param.txtcolor">ffae00</str>
+	<str id="wrath.subtitle.param.letterspacing">0</str>
+
+	<str id="wrath.subtitle.param.txtcolorshadow">000000</str>
+	<str id="wrath.subtitle.param.noflashmarginleft">64px</str>
+	<str id="wrath.subtitle.param.noflashmargintop">79px</str>
+	<str id="wrath.subtitle.param.noflashfont">Georgia, Times New Roman, Times, serif</str>
+	<str id="wrath.subtitle.param.noflashfontsize">20pt</str>
+	<str id="wrath.subtitle.param.noflashmarginleftshadow">65px</str>
+	<str id="wrath.subtitle.param.noflashmargintopshadow">80px</str>		
+
+	<str id="wrath.subtitle.name.features">Features</str>
+	<str id="wrath.subtitle.name.screenshots">Screenshots</str>
+	<str id="wrath.subtitle.name.story">Rise of the Lich King</str>	
+	<str id="wrath.subtitle.name.artwork">Artwork</str>
+	<str id="wrath.subtitle.name.wallpapers">Wallpapers</str>
+	<str id="wrath.subtitle.name.downloads">Downloads</str>	
+	<str id="wrath.subtitle.name.movies">Movies</str>
+	<str id="wrath.subtitle.name.faq">FAQ</str>
+	<str id="wrath.subtitle.name.riseotlk">Rise of the Lich King</str>
+
+	<str id="wrath.movie.name.gameplayvideo">Wrath Of The Lich King Trailer</str>
+	<str id="wrath.movie.name.opening-ceremony">Opening Ceremony Video</str>
+	
+	<str id="wrath.movie.name.wrathgate">Glory</str>
+
+<!-- Downloads -->
+
+	<str id="wrath.downloads.fankit.title">World of Warcraft <span>Fansite Kit</span>
+  </str>
+	<str id="wrath.downloads.fankit.desc"/>
+	<str id="wrath.downloads.fankit.download">Download Fansite Kit</str>
+	<str id="wrath.downloads.fankit.link">http://media.worldofwarcraft.com/wrath/downloads/fansitekit/WorldofWarcraft_Fansite_Kit_en-US.zip</str>
+	<str id="wrath.downloads.fankit.filesize">44.1M</str>
+
+<!-- Wallpapers -->
+	<str id="wrath.wallpapers.1.title">Azjol Nerub</str>
+	<str id="wrath.wallpapers.2.title">Valgarde Dragon Pens</str>
+	<str id="wrath.wallpapers.3.title">Azjol Nerub 2</str>
+	<str id="wrath.wallpapers.4.title">Azjol Nerub 3</str>
+	<str id="wrath.wallpapers.5.title">Azjol Nerub 4</str>
+	<str id="wrath.wallpapers.6.title">Utgarde Keep</str>
+	<str id="wrath.wallpapers.7.title">Daggercap Bay</str>
+	<str id="wrath.wallpapers.8.title">Logo</str>
+	<str id="wrath.wallpapers.9.title">Sholazar Basin</str>
+	<str id="wrath.wallpapers.10.title">Death Knight</str>
+	<str id="wrath.wallpapers.11.title">Death Knight Arthas</str>
+
+<!-- Movies -->
+	<movies>
+	<str id="label.dateadded">Date Added</str>
+	<str id="label.format">Format</str>
+	<str id="label.divx">DivX</str>
+	<str id="label.xvid">Xvid</str>
+	<str id="label.and">and</str>
+	<str id="label.flash">Adobe Flash Video</str>
+	<str id="label.requires">Requires</str>
+	<str id="label.divx.pc">DivX for PC</str>
+	<str id="label.or"> or </str>
+	<str id="label.divx.mac">DivX for Mac</str>
+	<str id="label.size">Size</str>
+	<str id="label.bytecount">mb</str>
+	<str id="label.download">Download</str>
+	<str id="label.viewstream">View stream</str>	
+	<str id="label.downloadwin">Download (Windows)</str>	
+	<str id="label.downloadmac">Download (Mac)</str>
+	
+	<!-- Ulduar -->
+	<str id="ulduar.movie.name.downloader.pc">ulduar/UlduarPR_xvid_US.avi-downloader.exe</str>
+	<str id="ulduar.movie.name.downloader.mac">ulduar/UlduarPR_xvid_US.avi-downloader.zip</str>
+	
+	<!-- Wrathgate -->
+	<str id="wrathgate.movie.rating">wrath</str>
+	<str id="wrathgate.movie.name.downloader.pc">wrathgate/Wrathgate_CutScene_1280_DIVX_EN_ESRB.avi-downloader.exe</str>
+	<str id="wrathgate.movie.name.downloader.mac">wrathgate/Wrathgate_CutScene_1280_DIVX_EN_ESRB.avi-downloader.zip</str>
+
+	<!-- Intro Cinematic Trailer -->
+	<str id="wrathintro.movie.rating">wrath</str>
+	<str id="wrathintro.movie.name.downloader.pc">wrath-intro/wotlk-intro_en_us-downloader.exe</str>
+	<str id="wrathintro.movie.name.downloader.mac">wrath-intro/wotlk-intro_en_us-downloader.dmg</str>
+
+	<!-- Wrath Trailer -->
+	<str id="wrathtrailer.movie.name.downloader.pc">wrath-trailer/Wrath_Of_The_Lich_King_EN.avi-downloader.exe</str>
+	<str id="wrathtrailer.movie.name.downloader.mac">wrath-trailer/Wrath_Of_The_Lich_King_EN.avi-downloader.dmg</str>
+	<str id="wrathtrailer.movie.name.downloader.flv">movies/wrath-trailer/wrath_of_the_lich_king_en.html</str>
+
+	<!-- Opening Ceremony Trailer -->
+	<str id="opening-ceremony.movie.name.downloader.pc">opening-ceremony/OpeningCeremony_f.avi-downloader.exe</str>
+	<str id="opening-ceremony.movie.name.downloader.mac">opening-ceremony/OpeningCeremony_f.avi-downloader.dmg</str>
+	<str id="opening-ceremony.movie.name.downloader.flv">movies/opening-ceremony/opening-ceremony.html</str>
+
+	</movies>
+
+
+	<northrend>
+		<str id="name">Northrend</str>
+		<str id="wrath.subtitle.name.borean">Borean Tundra</str>
+		<str id="wrath.subtitle.name.howling">Howling Fjord</str>
+		<str id="wrath.subtitle.name.grizzly">Grizzly Hills</str>
+		<str id="wrath.subtitle.name.dragonblight">Dragonblight</str>
+	</northrend>
+
+	<deathknight>
+		<str id="name">Deathknight</str>
+		<str id="interview">Death Knight Interview</str>
+		<str id="lore">Death Knight Lore</str>
+		<str id="deathknightgameplay">Death Knight Gameplay</str>
+	</deathknight>
+
+	<bard>
+		<str id="name">Bard</str>
+		<str id="bard">Bard Hero Class</str>
+	</bard>
+
+	<dungeons>
+		<str id="name">Dungeons</str>
+		<str id="utgarde">Utgarde Keep</str>
+		<str id="nexus">The Nexus</str>
+	</dungeons>
+
+	<factions>
+		<str id="name">Factions</str>
+		<str id="tuskarr">Tuskarr</str>
+	</factions>
+
+	<collectors>
+		<str id="collectorsedition">Wrath of the Lich King Collector's Edition</str>
+	</collectors>
+
+	<bestiary>
+		<str id="bestiary">Bestiary</str>
+	</bestiary>
+
+	<gameplay>
+		<str id="gameplay">New Gameplay Features</str>
+		<str id="achievements">Player Achievements Preview</str>
+		<str id="wintergrasp">World PvP: Wintergrasp</str>
+		<str id="primer">Wrath of the Lich King Primer</str>
+		<str id="artbook">Cinematic Art Book – Preview</str>
+	</gameplay>
+	<str id="wrath.gameplay.pvp.wintergrasp">World PvP: Wintergrasp</str>
+	<str id="wrath.gameplay.pvp.title">Player Versus Player</str>
+
+<!-- Environments -->
+	<str id="wrath.environments.title">Environments</str>
+	<str id="wrath.environments.desc">A journey through the remote, varietal lands of Northrend.</str>
+	<str id="wrath.environments.name.northrendmap">Northrend Map</str>
+	<str id="wrath.environments.name.boreantundra">Borean Tundra</str>
+	<str id="wrath.environments.boreantundra.desc">The sprawling Borean Tundra lies at the far southwestern tip of Northrend, the icy continent also known as the roof of the world.</str>
+	<str id="wrath.environments.name.howlingfjord">Howling Fjord</str>
+	<str id="wrath.environments.howlingfjord.desc">The Howling Fjord sits high above the Great Sea on the southeastern tip of Northrend. It is said that in ancient times the vrykul, a race of half-giant warriors, inhabited the land, founding a vast and prosperous civilization. </str>
+	<str id="wrath.environments.name.grizzlyhills">Grizzly Hills</str>
+	<str id="wrath.environments.grizzlyhills.desc">The lush, primordial mountains of the Grizzly Hills are a stark contrast to the snowy peaks that separate it from the Howling Fjord to the south.</str>
+	<str id="wrath.environments.name.dragonblight">Dragonblight</str>
+	<str id="wrath.environments.dragonblight.desc">For millennia the Great Dragonblight has served as the enduring heart of Northrend. Here dense forests surround a vast arctic wasteland littered with the massive, gleaming bones of perished dragons.</str>
+
+<!-- Lore -->
+	<str id="wrath.story.title">Story</str>
+	<str id="wrath.story.chapters">Chapters</str>
+	<str id="wrath.story.chapter1">Chapter 1</str>
+	<str id="wrath.story.chapter2">Chapter 2</str>
+	<str id="wrath.story.chapter3">Chapter 3</str>
+	<str id="wrath.story.desc">The calamitous events that led to the rise of the Lich King.</str>
+	<str id="wrath.story.name.riseofthelichking3">Rise of the Lich King (Chapter 3)</str>
+	<str id="wrath.story.name.riseofthelichking2">Rise of the Lich King (Chapter 2)</str>
+	<str id="wrath.story.name.riseofthelichking">Rise of the Lich King (Chapter 1)</str>
+	<str id="wrath.story.riseofthelichking.desc">The elder shaman Ner'zhul was once among the greatest spiritual leaders of the orcs. Deceived by the demon Kil'jaeden, he set in motion the events that led to the orcs' corruption and the creation of the bloodthirsty Horde.</str>
+	<str id="wrath.story.riseofthelichking.desc2">The archmage Antonidas suspected that the undead plague was magical in origin, and so he sent the sorceress Jaina Proudmoore to the northlands to investigate. With her went Prince Arthas Menethil, only son of King Terenas...</str>
+	<str id="wrath.story.riseofthelichking.desc3">Not long after Arthas knelt before King Terenas, the former paladin thrust Frostmourne into his father's heart. At the Lich King's command, the fallen prince went on to murder his mentor, Uther the Lightbringer, and claim Kel'Thuzad's remains...</str>
+
+<!-- Deathknight -->
+	<str id="wrath.deathknight.title">Death Knight</str>
+	<str id="wrath.deathknight.desc">Details about the death knight class.</str>
+	<str id="wrath.deathknight.interview">Death Knight Interview</str>
+	<str id="wrath.deathknight.interview.desc">We recently sat down with the World of Warcraft design team to talk about the role the death knight will play in the expansion’s story as well as in its gameplay, and to get their thoughts about goals and ideas for the new class.</str>
+	<str id="wrath.deathknight.lore">Death Knight Lore</str>
+	<str id="wrath.deathknight.lore.desc">Years after the destruction of Draenor, the immensely powerful Lich King created a new breed of death knights: malevolent, rune-wielding warriors of the Scourge. The first and greatest of these was Prince Arthas Menethil, once a mighty paladin of the Silver Hand...</str>
+	<str id="wrath.deathknight.gameplay">Death Knight Gameplay Introduction</str>
+	<str id="wrath.deathknight.gameplay.desc">The fearsome death knight is not your average adventurer seeking to prove his worth in battle. He begins his calling already an experienced, formidable adversary, heavily armed and armored and possessing an arsenal of deadly and forbidden magic learned in the Lich King’s thrall. </str>
+
+<!-- CDev Interview -->
+	<str id="wrath.cdev.title">Creative Development: An Inside Look</str>
+
+<!-- Dungeons -->
+	<str id="wrath.dungeons.title">Dungeons</str>
+	<str id="wrath.dungeons.desc">Dungeons statistics and lore</str>
+	<str id="wrath.dungeons.utgarde">Utgarde Keep</str>
+	<str id="wrath.dungeons.utgarde.desc">Fresh from your many victories in Outland, you have heeded the call. Brave adventurers are needed to battle the massing Scourge in Northrend.</str>
+	<str id="wrath.dungeons.nexus">The Nexus</str>
+	<str id="wrath.dungeons.nexus.desc">Malygos uses the Arcanomicon to locate and tap into the ley lines, diverting the magical powers that course beneath the earth to his home base in Northrend, the Nexus.</str>
+
+	<str id="wrath.gameplay.title">Gameplay</str>
+	<str id="wrath.gameplay.newfeatures">New Features</str>
+	<str id="wrath.gameplay.achievements">Player Achievements</str>
+<!-- Factions -->
+	<str id="wrath.factions.title">Factions</str>
+	<str id="wrath.factions.desc">Inhabitants of Northrend</str>
+	<str id="wrath.factions.tuskarr">Tuskarr</str>
+	<str id="wrath.factions.tuskarr.desc">The tuskarr are a kind-natured nomadic race that roams the southern coastlines of Northrend.</str>
+
+<!-- Bard Class OMG -->
+	<str id="wrath.bardclass.title">Bard Hero Class</str>
+	<str id="wrath.bardclass.desc">Details about Azerothian Troubadours</str>
+	<str id="wrath.bardclass.bard">Unveiling the Bard Hero Class</str>
+	<str id="wrath.bardclass.bard.desc">Although a hero’s glory endures in song, the creators of those songs are seldom remembered... until now.</str>
+
+
+<!-- Bestiary -->
+	<str id="wrath.bestiary.title">Bestiary</str>
+	<str id="wrath.bestiary.desc">The creatures of Wrath of the Lich King</str>	
+	<str id="wrath.bestiary.main">Here there be dragons...</str>
+	<str id="wrath.bestiary.main.desc">Check out some of the new creatures introduced in Wrath of the Lich King.</str>
+
+<!-- Features Subsection Contents -->
+	<features>
+	<str id="label.category">Category</str>
+	<str id="label.latestupdates">Latest Updates</str>
+	</features>
+
+</strs>

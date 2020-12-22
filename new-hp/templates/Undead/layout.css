@@ -1,0 +1,26 @@
+/* 
+World of Warcraft UnDead
+*/
+body { background: #000 url('page-bg.jpg') repeat-x center 0; color: #000; font-family: Arial, Helvetica, sans-serif;    font-size: 12px; padding: 0; margin: 0; }
+#hpWrapper { display: table-row; background: url('menu-bg.jpg') repeat-y 65px 0; }
+#nav{ width: 157px;  background: transparent repeat-x 0 0; position:relative; }
+#leftMenu { margin-top: 39px; position: relative; right: -11px; }
+#header, .logo-container, .logo-right, .gryph-container, .gryph-z, #main-nav { display: none; }
+#wow-logo { background: url('wowlogo-new.gif') no-repeat; position:relative; top:-3px; left:-5px;  width: 252; height: 103; }
+div.page-bg-top { background: url('page-bg-top.jpg') repeat; height: 88px; position: relative; width: 100%; }
+img.statue-left { width: 243; height: 445; position: absolute; top: -445px; left: -243px; background-image: url('statue-left.jpg'); }
+#ne-top-left { background: url('ne-top-left.jpg') no-repeat; position: absolute; top: -15px; left: -229px; height: 275px; width: 134px; }
+#ne-center { background: url('ne-center.jpg') no-repeat; position: absolute; top: -31px; left: -120px; height: 537px; width: 148px; }
+#ne-bottom-left { background: url('../../images/pixel.gif') no-repeat; position: absolute; }
+#ne-nav-bg { background: url('ne-nav-bg.jpg') no-repeat; position: absolute; top: -10px; left: 27px; height: 546px; width: 157px; }
+#ironFrame { display: block; height: 20px; background: black url('ironframe-bg.jpg') repeat-x top; position: relative; border: 0; width:100%; left: 0; z-index: 0; }
+#ironFrame { margin-top: -2px; }
+.blizz-logo  { position: absolute; bottom: 22px; left: 50%; margin-left: -47px; }
+.navigation { display: none; }
+#marginal { width: 226px; margin-left: -1px; }
+#main-bottom div { height: 41px; background: url('../../images/layout/frame_bottom-left.jpg') no-repeat top left; }
+#main-bottom div div { height: 41px; background: url('../../images/layout/frame_bottom-right.jpg') no-repeat top right; }
+#main-bottom { height: 41px; margin-bottom: -16px; width: auto; background: url('../../images/layout/frame_bottom-bg.jpg') repeat-x 0 0; z-index: 100; }
+#copyright { display: block; position: relative; top: 75px; left: auto;	color: #8e8e8e; }
+img.blizzylogo  { background: url('../../images/new/bot-blizzlogo.gif'); height: 57; width: 97; }
+div div div#blizzlogo-bot { position: relative; display: block; text-align: center; top: -61px; left: auto;	background: none; z-index: 500; }

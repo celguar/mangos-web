@@ -1,0 +1,10 @@
+#leftMenu { right: -11px !important; }
+#leftMenuContainer{ position: absolute; left: 4px; }
+#marginal { width: 226px; margin-left: 3px; }
+#ironFrame { margin-top: -2px; top:0px; }
+#hpWrapper { position:relative; top:0px; }
+#pvpBoxPosition { left: 0px; }
+table.pvpList { margin: 0; }
+a.scroll, a.scroll:active, a.scroll:visited { margin: 0 0 0 3px; }
+.scroll img { margin-bottom: 0px; margin-top: 2px; }
+.news-archive-button { margin: 3px auto 0; }

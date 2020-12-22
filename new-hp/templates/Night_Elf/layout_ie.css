@@ -1,0 +1,11 @@
+/* 
+World of Warcraft - [IE FIX]
+*/
+#ne-top-left { background: url('ne-top-left.jpg') no-repeat; position: absolute; top: 24px; left: -180px; height: 346px; width: 264px; }
+#ne-center { background: url('ne-center.jpg') no-repeat; position: absolute; top: -6px; left: -46px; height: 537px; width: 64px; }
+#ne-bottom-left { background: url('ne-bottom-left.gif') no-repeat; position: absolute; top: 299px; left: -180px; height: 229px; width: 134px; }
+#ne-nav-bg { background: url('ne-nav-bg.jpg') no-repeat; position: absolute; top: 3px; left: 15px; height: 546px; width: 157px; }
+#ironFrame { margin-top: 15px; margin-bottom: 30;}
+#marginal { width: 220px; margin-left: 3px; }
+#copyright { display: block; position: relative; top: 68px; left: auto;	color: #8e8e8e; }
+div div div#blizzlogo-bot { position: relative; display: block; text-align: center; top: -62px; left: auto;	background: none; z-index: 500; }

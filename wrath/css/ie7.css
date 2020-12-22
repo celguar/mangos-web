@@ -1,0 +1,19 @@
+﻿/*	Wrath of the Lich King - Blizzard Entertainment 2007 */
+
+* {zoom:1;}
+li, span, a, dl, dt, dd, p, blockquote {zoom:0;}
+a.pcd,a.macd,a.flvd { padding: 0 21px 0 0; height: 21px; position: relative; top: 5px; margin-top: -5px }
+.copy b { float: left }
+.rise-img1,.rise-img2	{ top: -132px }
+
+/* Frontpage */
+div.frontpage-overview { min-height: 520px;}
+
+/* Dungeons */
+blockquote  p.lead {  margin-top:40px !important}
+
+.morewall { margin-top:0; }
+#flashcharghoul { margin-top:-253px !important; }
+
+.wrathgate_hd { margin: 35px 0 0 240px; }
+.wrathgate-glory-author { top: -30px; }

@@ -1,0 +1,7 @@
+Options -Indexes
+RewriteEngine On
+ErrorDocument 401 /inc/error/401.php
+ErrorDocument 402 /inc/error/402.php
+ErrorDocument 403 /inc/error/403.php
+ErrorDocument 404 /inc/error/404.php
+ErrorDocument 500 /inc/error/500.php

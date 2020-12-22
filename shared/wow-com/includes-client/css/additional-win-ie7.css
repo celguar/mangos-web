@@ -1,0 +1,11 @@
+/*\ IE 7 PNG Optimization \*/
+
+
+body { background-position: top right !important; }
+#character-post-info.admin-box, .pinfobackground, .gborder, #errorcontainer div.messages, #searchshell div.searchbox, #character-post-info { background: url('/shared/wow-com/includes/images/back7.png'); }
+.subnav-container {  background: url('/shared/wow-com/includes/images/back2-7.png'); }
+
+#main-nav { margin-top: 0px !important; 
+			margin-bottom: -6px !important;}
+.top-shadow { margin-bottom: -7px; margin-top: -1px; font-size:1px;}
+.drop-shadow { margin-bottom: -8px; font-size:1px;}

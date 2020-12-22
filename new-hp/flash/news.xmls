@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes" ?>
+<movie>
+<featured>
+<item1 title="swagdog.swf" link="http://warcraft.swagdog.com/" link="_self"/>
+<item2 title="wrath_trial.swf" link="http://media.wow-europe.com/wrath/trial/index_en.html" target="_self"/>
+<item3 title="pcc_banner.swf" link="http://www.wow-europe.com/character/character-customization-intro.html" target="_self"/>
+<item4 title="wrathgate.swf" link="http://www.wow-europe.com/wrath/wrathgate.xml?locale=en_gb" target="_blank"/>
+<item5 title="store.swf" link="http://eu.blizzard.com/store" target="_blank"/>
+</featured>
+</movie>

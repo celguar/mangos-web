@@ -1,0 +1,108 @@
+﻿/* phatLootBoxes */
+.news { width: 27px; height: 27px; top: -4px; left: 7px; background: url('../images/visual-generalnews.gif') no-repeat 0 0; }
+.comm { width: 33px; height: 29px; top: -4px; left: 4px; background: url('../images/visual-community.gif') no-repeat 0 0; }
+.phatLootBox-top h2 { height: 15px; position: relative; left: 38px; top: 6px; background: url('../images/header-generalnews.gif') no-repeat 0 0; }
+h2.community { background: url('../images/header-comm.gif') no-repeat 0 0; }
+
+/* leftmenu section */
+div.leftMenu-section { height: 31px; }
+.leftMenu-sectionHeader em { display: none; }
+.leftMenu-section a { position: relative; }
+.leftMenu-gameGuide-on { background: url('../images/menu/leftMenu/menu-gameguide-on.gif') no-repeat 1px 0; height: 30px; display: block; }
+.leftMenu-gameGuide-off { background: url('../images/menu/leftMenu/menu-gameguide-off.gif') no-repeat 1px 0; height: 30px; display: block; }
+.menuGameGuide-icon-on, .menuGameGuide-icon-off,
+.menuNews-icon-on, .menuNews-icon-off, 
+.menuInteractive-icon-on, .menuInteractive-icon-off,
+.menuCommunity-icon-on, .menuCommunity-icon-off,
+.menuAccount-icon-on, .menuAccount-icon-off,
+.menuSupport-icon-on, .menuSupport-icon-off,
+.menuForums-icon-on, .menuForums-icon-off,
+.menuMedia-icon-on, .menuMedia-icon-off { height: 21px; width: 24px; position: absolute; left: 5px; top: 3px; }
+.menuNews-icon-on { background: url('../images/menu/leftMenu/icon-news-on.gif'); background-repeat: no-repeat; }
+.menuNews-icon-off { background: url('../images/menu/leftMenu/icon-news-off.gif'); background-repeat: no-repeat; }
+.menuGameGuide-icon-on { background: url('../images/menu/leftMenu/icon-gameguide-on.gif'); background-repeat: no-repeat; }
+.menuGameGuide-icon-off { background: url('../images/menu/leftMenu/icon-gameguide-off.gif'); background-repeat: no-repeat; }
+.menuInteractive-icon-on { width: 25px; background: url('../images/menu/leftMenu/icon-interactive-on.gif');  background-repeat: no-repeat; }
+.menuInteractive-icon-off { width: 25px; background: url('../images/menu/leftMenu/icon-interactive-off.gif'); background-repeat: no-repeat; }
+.menuForums-icon-on { background: url('../images/menu/leftMenu/icon-forums-on.gif'); background-repeat: no-repeat; }
+.menuForums-icon-off { background: url('../images/menu/leftMenu/icon-forums-off.gif'); background-repeat: no-repeat; }
+.menuCommunity-icon-on { background: url('../images/menu/leftMenu/icon-community-on.gif');background-repeat: no-repeat; }
+.menuCommunity-icon-off { background: url('../images/menu/leftMenu/icon-community-off.gif');background-repeat: no-repeat;  }
+.menuAccount-icon-on { background: url('../images/menu/leftMenu/icon-account-on.gif');background-repeat: no-repeat;  }
+.menuAccount-icon-off { background: url('../images/menu/leftMenu/icon-account-off.gif');background-repeat: no-repeat;  }
+.menuSupport-icon-on { width: 25px; background: url('../images/menu/leftMenu/icon-support-on.gif');background-repeat: no-repeat;  }
+.menuSupport-icon-off { width: 25px; background: url('../images/menu/leftMenu/icon-support-off.gif');background-repeat: no-repeat;  }
+.menuMedia-icon-on { background: url('../images/menu/leftMenu/icon-media-on.gif'); background-repeat: no-repeat; }
+.menuMedia-icon-off { background: url('../images/menu/leftMenu/icon-media-off.gif'); background-repeat: no-repeat; }
+.menuGameGuide-header-off, .menuGameGuide-header-on,
+.menuNews-header-on, .menuNews-header-off,
+.menuInteractive-header-on, .menuInteractive-header-off,
+.menuCommunity-header-on, .menuCommunity-header-off,
+.menuForums-header-on, .menuForums-header-off,
+.menuAccount-header-on, .menuAccount-header-off,
+.menuSupport-header-on, .menuSupport-header-off,
+.menuMedia-header-on, .menuMedia-header-off { height: 25px; display: block; position: absolute; left: 30px; top: 1px; width: 105px; /*makes the clickable area*/ background-position: 0 5px; background-repeat: no-repeat; }
+
+/* /leftmenu section */
+
+/* i.e. screenshot of the day */
+.marginal-infoBox-top h3, .plainBox-top h3 { height: 20px; background-position: 50px 5px; }
+#quicklinks h3 { height: 25px; background: url('../images/header-quick_links.jpg') no-repeat 30px 8px; }
+#ssotd-container h3 { background: url('../images/header-ssotd.gif') no-repeat 50px 5px; }
+#gameinfo-don-container h3 { background-image: url('../images/header-don.gif'); }
+#container-quicklinks h3 { background: url('../images/header-quicklinks.jpg') no-repeat 50px 5px; }
+#container-pvpRankings h3 { position:relative; background: url('../images/header-pvprankings.gif') no-repeat 50px 6px; }
+#gameinfo-bg-container h3 { background-image: url('../images/header-gameinfo.jpg'); }
+#gameinfo-underdev-container h3 { background-image: url('../images/header-underdev.gif'); }
+#community-spotlight h3 { background: url('../images/header-comm-spotlight.jpg') no-repeat 30px 8px; }
+#community-forumwatch h3 { background: url('../images/header-comm-fwatch.jpg') no-repeat 30px 8px; }
+
+/* box visuals i.e. little orcs, eye (ssotd) */    
+.marginal-infoBox-top .ssotd, .marginal-infoBox-top .don, .marginal-infoBox-top .battlegrounds, .marginal-infoBox-top .newbieguide, .underdev { top: -6px; left: -3px;
+width: 46px; height: 46px; z-index: 20003; }
+.marginal-infoBox-top .pvp,  .marginal-infoBox-top .quicklinks { top: -14px; left: -3px; width: 46px; height: 54px; z-index: 20003; }
+.marginal-infoBox-top .ssotd { background: url('../images/visual-infoBox-ssotd.gif') no-repeat 0 0; }
+.marginal-infoBox-top .don { background: url('../images/visual-infoBox-bg.gif') no-repeat 0 0; }
+.marginal-infoBox-top .battlegrounds { background: url('../images/visual-infoBox-bg.gif') no-repeat 0 0; }
+.marginal-infoBox-top .newbieguide { background: url('../images/visual-infoBox-ng.gif') no-repeat 0 0; }
+.underdev { background: url('../images/visual-infoBox-underdev.gif') no-repeat 0 0; top: -33px; }
+.marginal-infoBox-top .pvp { background: url('../images/visual-infoBox-pvp.gif') no-repeat 0 0; }
+
+/* smallTeasers */
+.smallTeaser h3, .twoCol-smallTeaser h3 { background-position:  40px 3px;  background-repeat: no-repeat; height: 20px; }
+.services-needhelp, .services-jobs { top: -4px; left: 0; width: 36px; height: 35px; }
+.twoCol-smallTeaser .services-needhelp { background: url('../images/visual-smallTeaser-needhelp.gif') no-repeat 0 0; }
+.twoCol-smallTeaser .services-jobs { background: url('../images/visual-smallTeaser-jobs.gif') no-repeat 0 0; }
+.community-contests, .community-fanarts, .community-wallpapers { top: -5px; left: -2px; }
+.community-contests { width: 36px; height: 36px; background: url('../images/visual-smallTeaser-contests.gif') no-repeat 0 0; }
+.community-fanarts { width: 36px; height: 36px; background: url('../images/visual-smallTeaser-fanarts.gif') no-repeat 0 0; }
+.community-wallpapers { top: -12px; width: 36px; height: 43px; background: url('../images/visual-smallTeaser-wallp.gif') no-repeat 0 0; }
+    
+/*  subheaders */
+.parchment-subHeader h4 { background-position:  78px 3px; background-repeat: no-repeat; height: 20px; }
+#marginal h4.discover { height: 16px; background-repeat: no-repeat;   position: relative; left: 27px; top: 6px; }
+.container-misc h4 { position: relative; left: 18px; top: 14px; }
+.container-misc h4.misc1 { height: 14px; background: url('../images/header-miscNews1.jpg') no-repeat 0 0; }
+.container-misc h4.misc2 { height: 14px; background: url('../images/header-miscNews1.jpg') no-repeat 0 0; }
+.container-misc h4.misc3 { height: 14px; background: url('../images/header-miscNews1.jpg') no-repeat 0 0; }
+.container-misc h4.misc4 { height: 14px; background: url('../images/header-miscNews1.jpg') no-repeat 0 0; }
+.container-misc { font-size: 12px; }
+.arrow-readmore { position: absolute; top: 0; right: 0; background: url('../images/pixel.gif') no-repeat 0 0; z-index: 20020; /*in case we have operlapping avatars, i.e. need help, jobs*/ }
+.arrow-readmore a {  height: 25px; width: 28px; display: block; }
+.button-readmore { position: absolute; bottom: 8px; right: 6px; background: url('../images/button-readmore.gif') no-repeat 0 0; }
+.twoCol-smallTeaser .button-readmore { right: 8px; bottom: 7px; }
+.button-readmore a { height: 15px; width: 75px; display: block; }
+.smiley { background-image: url('../images/icons/smiley.gif'); } 
+.testrealm { background-image: url('../images/icons/testrealm.gif'); } 
+.foot { background-image: url('../images/icons/foot.gif'); } 
+.knot { background-image: url('../images/icons/knot.gif'); } 
+.gnome { background-image: url('../images/icons/gnome.gif'); } 
+.rank14 { background-image: url('../images/icons/rank14.gif'); } 
+#quicklinks img { vertical-align:middle; margin-right:5px; }
+.hammer { background-image: url('../images/icons/faq.jpg'); } 
+.feather { background-image: url('../images/icons/acc_creation.jpg'); } 
+.flash { background-image: url('../images/icons/realmstatus.jpg'); } 
+.bag { background-image: url('../images/icons/acct_management.jpg'); } 
+.key { background-image: url('../images/icons/retrieve_pwd.jpg'); } 
+.paper { background-image: url('../images/icons/patch_notes.jpg'); } 
+.questionmark { background-image: url('../images/icons/tipday.jpg'); } 

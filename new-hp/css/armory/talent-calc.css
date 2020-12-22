@@ -1,0 +1,100 @@
+﻿#talContainer { height: 819px; padding-top: 10px; width: 887px; position:relative; margin: 0; background: url('/shared/global/images/talents/talent-bg-top.jpg')  0 0 no-repeat }
+#talContainer .talentFrame { height: 819px; width: 851px; padding: 0px 18px; background: url('/shared/global/images/talents/talent-bg-bottom.jpg')  0 100% no-repeat;}
+
+.calcInfo { width: 826px; margin:10px auto 0; height: 22px; padding: 2px 0 0 25px; background: url('/shared/global/images/talents/talent-calc-info.jpg') 0 0 no-repeat; color: #FFF; }
+.calcInfo span.ptsHolder { margin: 0 30px 0 0; }
+
+#talContainer .talentTree { width: 280px; height: 709px; padding: 5px 0 0 0; display: block; float: left; background-repeat:no-repeat; }
+#talContainer .talentTree .tier { height: 65px; width: 280px;  position:relative; }
+#talContainer .talentTree .talent { position:absolute; display: block; height: 55px; width: 56px; background-position: 2px 2px; background-repeat:no-repeat; }
+#talContainer .talentTree .talentHolder { width: 54px; height: 52px; padding: 2px 0 0 2px; background: url('/shared/global/images/talents/talent-wrap.gif') no-repeat 0 50%;  }
+
+/* different select states */
+#talContainer .talentTree .disabled { background-position: 0 0 !important; }
+#talContainer .talentTree .talentMax { background-position: 0 100% !important;  }
+
+#talContainer .talentTree .disabled .rankCtr { color: #FFF !important; }
+#talContainer .talentTree .talentMax .rankCtr { color: #FFD100 !important; }
+#talContainer .talentTree .rankCtr { color: #1AFF1A; }
+
+#talContainer .talentTree .col0 { top: 0; left: 25px;  }
+#talContainer .talentTree .col1 { top: 0; left: 85px;  }
+#talContainer .talentTree .col2 { top: 0; left: 145px;  }
+#talContainer .talentTree .col3 { top: 0; left: 205px;  }
+
+#talContainer .rankCtr {color: #FFF; width: 15px; font-size: 11px; position:absolute; bottom: 0; right: 5px; }
+#talContainer .requiredArrow { display: block; position: absolute; z-index: 100; }
+
+#talContainer .vArrow { background: url('/shared/global/images/talents/arrow-down.gif') 0 100% no-repeat; }
+#talContainer .hArrow { background: url('/shared/global/images/talents/arrow-vertical.gif') 0 100% no-repeat; }
+#talContainer .plain { background-image: url('/shared/global/images/talents/arrow-plain.gif'); }
+#talContainer .arrowLeft { background-position: 0 0; }
+#talContainer .arrowRight { background-position: 100% 0; }
+#talContainer .disabledArrow { background-position: 100% 100%; }
+#talContainer .disabledArrowL { background-position: 0 100% !important; }
+
+#talContainer .talentTreeInfo { margin: 10px 0px 0 4px; line-height: 21px; padding: 0 0 0 28px; }
+
+/* link to this build */
+#linkToBuild, #linkToBuild:visited { cursor:pointer; float: right; text-decoration: none; color: #FFF; background: url('/shared/global/images/button-blue-left.gif') 0 0 no-repeat; padding: 0 0 0 9px; margin: -2px 0px 0 15px; }
+#linkToBuild span {  text-align:left; background: url('/shared/global/images/button-right.gif') 100% 0 no-repeat; float: left; display: block; padding: 2px 10px 0 3px; height: 21px; }
+#linkToBuild .export { background: url('/shared/global/images/talents/button-blue-export.gif') 100% -2px no-repeat; padding: 0px 29px 0 10px; height: 21px;}
+.exportBuildLink { margin: 50px 0 0 0 !important; }
+
+/* reset buttoms */
+.resetTalents, .resetTalents:visited { cursor:pointer; text-decoration: none; color: #FFF; display: block; background: url('/shared/global/images/button-blue-left.gif') 0 0 no-repeat; float: right; padding: 0 0 0 9px; margin: 50px 0 0 0;  }
+.resetTalents span { text-align:left; background: url('/shared/global/images/button-right.gif') 100% 0 no-repeat; float: left; display: block; padding: 2px 10px 0 3px; height: 21px; }
+.resetTalents .reload { background: url('/shared/global/images/button-blue-reload.gif') 100% -2px no-repeat; padding: 0px 29px 0 10px; height: 21px; }
+.subtleResetButton { cursor:pointer; float: right; text-decoration: none; margin: 9px 3px 0 0; display: block; background: url('/shared/global/images/talents/button-subtle-left.gif') 0 0 no-repeat; height: 22px; padding: 0 0 0 7px; }
+.subtleResetButton span { cursor:pointer; float: left; display: block; height: 21px; background: url('/shared/global/images/talents/button-subtle-right.gif') 100% 0 no-repeat; padding: 1px 10px 0 5px; }
+#linkToBuild:hover, .resetTalents:hover, .subtleResetButton:hover { background-position: 0 100%; }
+#linkToBuild:hover span, #linkToBuild:hover .export, .resetTalents:hover span, .resetTalents:hover .reload, .subtleResetButton:hover span { background-position: 100% 100%; }
+.resetTalents:hover { color: #FFF; }
+
+/* glyphs */
+#glyphsLabel { float: left; margin: 50px 0 0 0px !important; }
+#glyphHolder {margin: 20px auto 0; background: url('/shared/global/images/talents/glyph-frame-top.gif') 0 0 no-repeat; width: 831px; position:relative; top: -20px; padding: 0 0 15px 5px; height: 105px;}
+.glyphHolderBottom { margin: 0 auto; background: url('/shared/global/images/talents/glyph-frame-bottom.gif') 0 0 no-repeat; width: 836px; height: 27px; position:relative; top: -30px;  } 
+
+#glyphHolder .glyph { cursor: default; float: left; display: block; background: url('/shared/global/images/talents/glyphs-left.gif') 0 0 no-repeat; padding: 0 0 0 47px; height: 47px; width: 200px; }
+#glyphHolder .glyph span { float: left; background: url('/shared/global/images/talents/glyphs-right.gif') 100% 0 no-repeat; height: 40px; padding-top: 7px; width: 100%; line-height: 16px; }
+#glyphHolder .major { background-position:  0 -94px; margin: 18px 5px 0 18px; }
+#glyphHolder .major:hover { background-position: 0 -141px; }
+#glyphHolder .minor { background-position: 0 -188px;  margin: 7px 5px 0 18px; }
+#glyphHolder .minor:hover { background-position: 0 -235px; }
+#glyphHolder .major span, #glyphHolder .minor span { background-position: 100% 100%; color: #FFF; font-weight: bold; }
+#glyphHolder .glyphTypeText { color: #73c7f3; font-weight: normal; margin: 0 0 0 3px; font-size: 11px; font-style:normal; }
+/* empty glyph */
+#glyphHolder .emptyGlyph span{ color: #64432d; font-style:italic;  background-position: 100% 0 !important; }
+#glyphHolder .emptyGlyph { background-position: 0 0 !important; }
+#glyphHolder .majorGlyphIcon { float: left; position:relative; top: 5px; left: -34px; margin: 0 -34px 0 0 }
+#glyphHolder .minorGlyphIcon { float: left; position:relative; top: 6px; left: -34px; margin: 0 -34px 0 0 }
+
+/* switch specs */
+.talentSpecSwitch { float: left; position:absolute; left: 480px; top: 148px;  }
+.talentSpecSwitch img { position:relative; border: none; float: left; display: block; height: 21px; width: 21px; margin: -3px 0 0 -40px; }
+.talentSpecSwitch a { cursor: pointer; line-height:41px; height: 41px; text-decoration: none; background:url('/shared/global/images/talents/talent-button-left.gif') 0 0 no-repeat; padding: 0 0 0 51px; margin: 0 5px 0 0; }
+.talentSpecSwitch a div { cursor: pointer; display: block; background: url('/shared/global/images/talents/talent-button-right.gif') 100% 0 no-repeat; padding: 10px 40px 0 0; height: 31px; line-height: 14px; } 
+
+/* active talents */
+.talentSpecSwitch .activeTalents, .talentSpecSwitch .activeTalents:visited { background-position: 0 -41px; color:#c5801b }
+.talentSpecSwitch .activeTalents div {  background-position: 100% -123px; }
+.talentSpecSwitch .activeTalents:hover { background-position: 0 -82px;  color:#ffd200 }
+.talentSpecSwitch .activeTalents:hover div {  background-position: 100% -205px; }
+
+.selectedSet .activeTalents, .selectedSet .activeTalents:visited { background-position: 0 0px; color:#000 }
+.selectedSet .activeTalents div, .selectedSet .activeTalents:visited div {  background-position: 100% -41px; }
+.selectedSet .activeTalents:hover { background-position: 0 0px; }
+.selectedSet .activeTalents:hover div {  background-position: 100% -41px; }
+
+
+/* inactive talents */
+.talentSpecSwitch .inActiveTalents, .talentSpecSwitch .inActiveTalents:visited { background-position: 0 -41px; color:#c5801b }
+.talentSpecSwitch .inActiveTalents div, .talentSpecSwitch .inActiveTalents:visited div {  background-position: 100% -82px; }
+.talentSpecSwitch .inActiveTalents:hover { background-position: 0 -82px; color:#ffd200 }
+.talentSpecSwitch .inActiveTalents:hover div {  background-position: 100% -164px; }
+
+.selectedSet .inActiveTalents, .selectedSet .inActiveTalents:visited { background-position: 0 0; color:#000 }
+.selectedSet .inActiveTalents div, .selectedSet .inActiveTalents:visited div{  background-position: 100% 0px; }
+.selectedSet .inActiveTalents:hover { background-position: 0 0;  }
+.selectedSet .inActiveTalents:hover div {  background-position: 100% 0px; }

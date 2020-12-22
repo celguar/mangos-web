@@ -1,0 +1,12 @@
+
+
+body { background: #000000 url('wrath-tile.jpg') repeat-x 100% -33px !important; }
+h1.wow-logo { background: url('wowlogo-bc.gif') no-repeat !important; height: 122px; }
+.bg-theme { background: url('wrath-bg.jpg') no-repeat 100% -2px !important;  }
+#postbackground { background: #000 url('forum-wrath-tile-left.jpg') repeat-y left top; }
+#postbackground .right { background: url('forum-wrath-tile-right.jpg') repeat-y right top; }
+.logo-container { margin: 0 auto; background: url('decor-left-bc.gif') no-repeat left top; }
+.logo-right { position: relative; background: url('decor-right-bc.gif') no-repeat right top; z-index: 9999; }
+li.alliance { background: url('../../images/forum/toggle-alliance0.gif') no-repeat; }
+li.horde {background: url('../../images/forum/toggle-horde0.gif') no-repeat; }
+li.bc { background: url('../../images/forum/toggle-bc1.gif') no-repeat 0 -1px; }

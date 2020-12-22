@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabs>
+	<tab href="/talent-calc.xml" id="talentCalc">Talent Calculator
+		<subTab href="/talent-calc.xml?c=6" id="6">Death Knight</subTab>
+		<subTab href="/talent-calc.xml?c=11" id="11">Druid</subTab>	
+		<subTab href="/talent-calc.xml?c=3" id="3">Hunter</subTab>
+		<subTab href="/talent-calc.xml?c=8" id="8">Mage</subTab>
+		<subTab href="/talent-calc.xml?c=2" id="2">Paladin</subTab>
+		<subTab href="/talent-calc.xml?c=5" id="5">Priest</subTab>
+		<subTab href="/talent-calc.xml?c=4" id="4">Rogue</subTab>		
+		<subTab href="/talent-calc.xml?c=7" id="7">Shaman</subTab>
+		<subTab href="/talent-calc.xml?c=9" id="9">Warlock</subTab>
+		<subTab href="/talent-calc.xml?c=1" id="1">Warrior</subTab>		
+	</tab>
+	<tab href="/arena-calculator.xml" id="arenaCalc">Arena Calculator</tab>
+</tabs>

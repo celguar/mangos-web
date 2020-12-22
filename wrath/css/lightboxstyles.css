@@ -1,0 +1,27 @@
+/* Lightbox Styles */
+.closeDivStyle {position:absolute; z-index:500; cursor:pointer; top:-32px; right:-5px; width:24px; height:24px; display:block; background:url(../_images/layout/lightbox-close.gif) 0 0 no-repeat;}
+.backGifStyle {position:absolute; z-index:500; cursor:pointer; bottom:-48px; left:-13px; _bottom:-30px; _left:-20px; width:30px; height:30px; display:block; background:url(/wrath/images/layout/lightbox-arrowleft.gif) 0 0 no-repeat; margin:0; padding:0;}
+.fwdGifStyle {position:absolute; z-index:500; cursor:pointer; bottom:-48px; right:-16px; _bottom:-30px; _right:-21px; width:30px; height:30px; display:block; background:url(/wrath/images/layout/lightbox-arrowright.gif) 0 0 no-repeat; margin:0; padding:0;}
+.imageCounterStyle {position:absolute; bottom:-40px; left:65px; text-align:left; font:italic 11px Georgia, 'Times New Roman', Times, serif; letter-spacing:-1px; color:#fff;}
+#currentImageCounter {font:bold italic 11px/1em Georgia, "Times New Roman", Times, serif;}
+.hiResLinkStyle {position:absolute; z-index:500; bottom:-60px; right:20px; height:34px; color:#000000; text-align:center; font:italic 11px Georgia, 'Times New Roman', Times, serif;}
+.hiResLinkStyle a {font:10px Arial, Helvetica, sans-serif; color:#ff9600;}
+.hiResLinkStyle a:hover {text-decoration:underline; color:#fff;}
+.linkHereStyle {position:absolute; z-index:500; top:-20px; left:50%; height:15px; cursor:text; font:10px Arial, Helvetica, sans-serif; border:1px solid #202020; padding:1px; background:#000; color:#5d5d5d; overflow:hidden; width:32%; margin-left:-16%;}
+.screenie2Style {position:absolute; width:1px; height:1px; background-repeat:no-repeat; background-position:center; cursor:pointer; background-color:#000000;/* top:0; background:#000000 50% 0 no-repeat; width:1px; height:1px; opacity:0; filter:alpha(opacity=0); cursor:pointer; */}
+.screenieStyle {position:absolute; width:1px; height:1px; background-repeat:no-repeat; background-position:center; cursor:pointer; background-color:#000000;}
+.pictureFrameStyle {position:absolute; width:100%; height:1px; background-position:50% 50px; z-index:5000001; display:none;}
+.c0verStyle {position:absolute; top:0; left:0; z-index:5000000; /*background-color:#000000; opacity:0.7; filter:alpha(opacity=70);*/}
+.dumpsterStyle {display:none;}
+.lightboxAnchorStyle {position:absolute; top:0; left:0;}
+/*Holy Crap! Divs!*/
+
+.topDivStyle {background:url(/wrath/images/layout/ssborder-t.gif) 50% 100% repeat-x; position:absolute; top:-21px; left:0px; width:100%; height:21px;}
+.rightDivStyle {background:url(/wrath/images/layout/ssborder-r.gif) 0 50% repeat-y; position:absolute; top:0; right:-21px; width:21px; height:100%;}
+.bottomDivStyle {background:url(/wrath/images/layout/ssborder-b.gif) 50% 0 repeat-x; position:absolute; bottom:-30px; left:0; width:100%; height:30px;}
+.leftDivStyle {background:url(/wrath/images/layout/ssborder-l.gif) 100% 50% repeat-y; position:absolute; top:0; left:-20px; width:20px; height:100%;}
+.topLeftDivStyle {background:url(/wrath/images/layout/ssborder-tl.gif) 0 0 no-repeat; position:absolute; top:-21px; left:-20px; width:113px; height:105px;}
+.topRightDivStyle {background:url(/wrath/images/layout/ssborder-tr.gif) 0 0 no-repeat; position:absolute; top:-21px; right:-21px; width:21px; height:21px;}
+.bottomRightDivStyle {background:url(/wrath/images/layout/ssborder-br-new.png) 0 0 no-repeat; _background:url(/wrath/images/layout/pixel.gif); position:absolute; bottom:-98px; right:-21px; width:186px; height:98px; }
+.bottomLeftDivStyle {background:url(/wrath/images/layout/ssborder-bl-new.png) 0 0 no-repeat; _background:url(/wrath/images/layout/pixel.gif); position:absolute; bottom:-96px; left:-20px; width:186px; height:96px; }
+

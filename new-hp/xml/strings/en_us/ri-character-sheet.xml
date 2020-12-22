@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="Character Sheet">
+	<faqlist>
+		<faq question="What is the &quot;Find an Upgrade&quot; option for items in a character profile?">
+			Mousing over any item in a character profile displays a small arrow that turns into a button. Clicking this "Find an Upgrade" button will take you to an item search results page. On this page will be a list of items that may be considered upgrades for that item and for that particular character.
+			<p/>
+			These recommended upgrades take into account the character’s class, statistics, and overall gear quality. In this manner, you can look for upgrades for your character’s items as well as for any other character in World of Warcraft. This feature is also intended to be helpful for characters with multiple gear sets, as they can find upgrades for all their sets.
+			<p/>
+			Read more at our <a href="faq-item-info-recommended.xml;">Find an Upgrade FAQ</a>.
+		</faq>
+		<faq question="Why isn't my character sheet appearing?">
+			Only characters on US realms are stored here, as this is the US version of the Armory. To switch to a different region, such as Europe, go to their regional World of Warcraft website and access the Armory from there. In addition, a character must be recently active to have its profile appear on the Armory. Finally, your character must be at least level 10 to have their character sheet appear.
+		</faq>
+		<faq question="Why can't I find my low level character?">
+			Characters must be at least level 10 to appear in the Armory, which includes having a character profile as well as appearing in a results page for a character name search.
+		</faq>
+		<faq question="Where can I view all the arena icons?">
+			You may view all the obtainable arena icons <a href="legend-achievements.xml" target="_blank">here</a>.
+		</faq>
+		<faq question="Why aren't my lifetime honorable kills displayed?">
+			In order to have your lifetime honorable kills displayed, you must have at least 1337 honorable kills.
+		</faq>
+		<faq question="Why isn’t my ammo slot appearing on my character sheet?">
+			This functionality may be added at some point in the future.
+		</faq>
+		<faq question="Why is the character portrait in my character profile not as it appears in-game?">
+			The Armory does not show an actual in-game picture of your character in the top left of your profile. The portraits are automatically generated for all characters of a particular level range, race, class, and gender combination.
+		</faq>
+		<faq question="What are the different titles players can earn?">
+			For a complete list of titles, please visit our <a href="http://www.worldofwarcraft.com/info/basics/titles.html">Character Titles page</a>.
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="Character Search" url="/character-search.xml"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="Character Attributes Guide" type="external" url="http://www.worldofwarcraft.com/info/basics/characters.html"/>
+		<relatedlink name="Races" type="external" url="http://www.worldofwarcraft.com/info/races/index.html"/>
+		<relatedlink name="Classes" type="external" url="http://www.worldofwarcraft.com/info/classes/index.html"/>
+		<relatedlink name="Professions" type="external" url="http://www.worldofwarcraft.com/info/professions/index.html"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="F.A.Q.s" url="/faq-armory.xml"/>
+		<relatedlink name="Known Issues" type="external" url="http://forums.worldofwarcraft.com/thread.html?topicId=2765957433&amp;sid=1"/>		
+		<relatedlink name="Report an Error" type="report" url="mailto:wowarmory@blizzard.com?subject=WoW Armory Error&amp;body=Type your error report below. Browser Agent: REPLACEBROWSER. Error on page: REPLACEURL"/>
+	</relatedlinks>
+</relatedinfo>

@@ -1,0 +1,9 @@
+/*\ IE 7 PNG Optimization \*/
+
+body { background-position: top right; }
+#character-post-info.admin-box, .pinfobackground, .gborder, #errorcontainer div.messages, #searchshell div.searchbox, #character-post-info { background: url('../images/forum/back7.png'); }
+.subnav-container {  background: url('../images/forum/back2-7.png');  }
+table.board-clear { clear: both; margin: 11px 0 0 0; }
+.poll-date { width: auto; }
+
+#style-switcher ul { display: block; list-style: none; margin: 0; padding: 0 0 0 20px; height: 25px; width: 158px; }
